@@ -68,7 +68,7 @@ const updateProductById = async (req, res) => {
             return;
         }
     } catch (err) {
-        res.status(500).json({ data: { message: "Error in updateing product" } });
+        res.status(500).json({ data: { message: "Error in updating product" } });
     }
 
 };
@@ -76,7 +76,7 @@ const updateProductById = async (req, res) => {
 // delete product by id
 const deleteProductById = async (req, res) => {
     try {
-        await Product.remove({ "_id": req.params.id });
+        await Product.deleteOne({ "_id": req.params.id });
         res.status(200).json({ data: { message: "product deleted" } });
     } catch (error) {
         res.status(400).json({ data: { message: "No product is found with the id" } });
