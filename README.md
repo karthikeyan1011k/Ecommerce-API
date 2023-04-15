@@ -1,32 +1,61 @@
-# Ecommerce-API
 
-How to setup 
+# Ecommerce API
+Its an Ecommerce API to manage product inventory
+
+
+
+
+
+
+
+
+
+## How to setup
+
 Repo link https://github.com/karthikeyan1011k/Ecommerce-API
 
-Install project with npm
 
-  cd Ecommerce-APi
+> ***Install project with npm***       
+
+```bash
+  cd Ecommerce_API
   npm install
   npm install nodemon
-  
-  
-Start APP
+
+```
+
+***Start APP***
+
+```bash 
 npm start
+```
 
-Routes and their responses
-method GET
+## Routes and their responses
+
+
+### method GET
 API to list products
+- http://localhost:6509/product
 
-http://localhost:8080/product
-method DELETE
+### method DELETE 
 API to delete products
+- http://localhost:6509/product/:id
 
-http://localhost:8080/product/:id
-method POST
+### method POST
 API to add products to the database
+- http://localhost:6509/product/create
 
-http://localhost:8080/product/create
-method POST
+### method POST
 API to update quantity of a product (can be incremented or decremented)
+- http://localhost:6509/product/:id/update_quantity/?number=[number of qty]
+## ***Tasks Performs***
 
-http://localhost:8080/product/:id/update_quantity/?number=[number of qty]
+- Show a list of all product. 
+- Add Product
+- Remove Product
+- Update Product Quantity 
+
+
+
+
+
