@@ -5,7 +5,9 @@ Repo link https://github.com/karthikeyan1011k/Ecommerce-API
 
 Install project with npm
 
-  cd EcommerceAPI_CN
+  cd Ecommerce-APi
+  npm install
+  npm install nodemon
   
   
 Start APP
