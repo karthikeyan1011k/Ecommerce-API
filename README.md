@@ -18,7 +18,7 @@ Repo link https://github.com/karthikeyan1011k/Ecommerce-API
 > ***Install project with npm***       
 
 ```bash
-  cd Ecommerce_API
+  cd Ecommerce-API
   npm install
   npm install nodemon
 
